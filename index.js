@@ -1,7 +1,7 @@
 document.getElementById("mybtn").onclick = () => {
   // var v = document.getElementById("textInput").value;
   fetch(
-    "http://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=8bc3551c9ba59f49259431c4f2d6889a"
+    "https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=8bc3551c9ba59f49259431c4f2d6889a"
   )
     .then((data) => {
       return data.json();
